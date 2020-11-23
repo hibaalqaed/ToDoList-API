@@ -11,3 +11,14 @@ exports.creatData = (req, res) => {
   data.push(newData);
   res.json(newData);
 };
+
+exports.deleteData = (req, res) => {
+  const dataId = req.params.dataId;
+  const foundData = data.find((data) => data.id === +dataId);
+  if (foundData) {
+    data = data.filter((data) => data.id !== +dataId);
+    res.status(204).end();
+  } else {
+    res.status(404).json({ massage: "task not found" });
+  }
+};
