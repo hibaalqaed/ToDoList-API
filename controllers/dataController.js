@@ -1,5 +1,6 @@
 let data = require("../data");
 
+//Data List
 exports.dataList = (req, res) => {
   res.json(data);
 };
@@ -18,6 +19,6 @@ exports.deleteData = (req, res) => {
     data = data.filter((data) => data.id !== +dataId);
     res.status(204).end();
   } else {
-    res.status(404).json({ massage: "Task not found" });
+    res.status(404).json({ massage: "task not found" });
   }
 };
