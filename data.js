@@ -1,29 +1,29 @@
 const data = [
   {
     id: 1,
-    name: "finsh the feture",
+    name: "Finish the feature",
     status: true,
   },
 
   {
     id: 2,
-    name: "clean my room",
+    name: "Clean my room",
     status: true,
   },
 
   {
     id: 3,
-    name: "study",
+    name: "Study",
     status: true,
   },
   {
     id: 4,
-    name: "exercise",
+    name: "Exercise",
     status: true,
   },
   {
     id: 5,
-    name: "replay to my emails",
+    name: "Reply to e-mails",
     status: true,
   },
 ];

@@ -2,14 +2,17 @@ const express = require("express");
 const router = express.Router();
 const {
   dataList,
-  creatData,
+  createData,
   deleteData,
 } = require("../controllers/dataController");
 
 //Data List
 router.get("/", dataList);
 
-router.post("/", creatData);
+//Data Create
+router.post("/", createData);
+
+//Data Delete
 router.delete("/:dataId", deleteData);
 
 module.exports = router;
