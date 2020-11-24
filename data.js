@@ -2,34 +2,34 @@ const data = [
   {
     id: 1,
     name: "Finish the feature",
-    // status: true,
-    // priority: [low, medium, high],
+    status: false,
+    priority: "low",
   },
 
   {
     id: 2,
     name: "Clean my room",
-    // status: true,
-    // priority: [low, medium, high],
+    status: false,
+    priority: "low",
   },
 
   {
     id: 3,
     name: "Study",
-    // status: true,
-    // priority: [low, medium, high],
+    status: false,
+    priority: "low",
   },
   {
     id: 4,
     name: "Exercise",
-    // status: true,
-    // priority: [low, medium, high],
+    status: false,
+    priority: "low",
   },
   {
     id: 5,
     name: "Reply to e-mails",
-    // status: true,
-    // priority: [low, medium, high],
+    status: false,
+    priority: "low",
   },
 ];
 
